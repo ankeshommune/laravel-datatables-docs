@@ -8,7 +8,7 @@ The default attributes of checkbox column are:
 [
 	'defaultContent' => '<input type="checkbox" ' . $this->html->attributes($attributes) . '/>',
 	'title'          => $this->form->checkbox('', '', false, ['id' => 'dataTablesCheckbox']),
-	'data'           => 'checkbox',
+	'data'           => 'checkbox',//what would be here if i want to show the primary key of table 
 	'name'           => 'checkbox',
 	'orderable'      => false,
 	'searchable'     => false,
